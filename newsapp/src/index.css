@@ -1,1 +1,16 @@
 @import "tailwindcss";
+
+
+
+/* *{
+    margin:0;
+    padding: 0;
+} */
+ body,html{ 
+    overflow-x: hidden;
+ }
+
+
+ body{
+    background-color: #24292e;
+ }
