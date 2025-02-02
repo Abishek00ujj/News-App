@@ -61,6 +61,7 @@ const Newspage = () => {
               <Search size={30} />
             </div>
           </div>
+          <marquee behavior="" direction="">
           <div className='flex space-x-3'>
             {["Politics", "Science", "Health", "Sports", "Business"].map((category) => (
               <div
@@ -72,6 +73,8 @@ const Newspage = () => {
               </div>
             ))}
           </div>
+          </marquee>
+         
         </div>
 
         <div className='w-screen flex flex-col justify-center items-center space-y-3'>
