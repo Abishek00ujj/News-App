@@ -19,7 +19,7 @@ const Newspage = () => {
     setLoading(true);
     try {
       const res = await axios.get(
-        `https://newsapi.org/v2/everything?q=${query}&pageSize=${Size}&apiKey=${API_KEY}`
+        `http://newsapi.org/v2/everything?q=${query}&pageSize=${Size}&apiKey=${API_KEY}`
       );
       setData(res.data.articles);
     } catch (err) {
